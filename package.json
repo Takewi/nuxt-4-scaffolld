@@ -1,19 +1,31 @@
 {
-  "name": "cloud",
-  "type": "module",
-  "private": true,
-  "scripts": {
-    "build": "nuxt build",
-    "dev": "nuxt dev",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
-  },
-  "dependencies": {
-    "@nuxt/eslint": "1.9.0",
-    "eslint": "^9.0.0",
-    "nuxt": "^4.1.3",
-    "vue": "^3.5.22",
-    "vue-router": "^4.6.3"
-  }
+	"name": "cloud",
+	"type": "module",
+	"private": true,
+	"scripts": {
+		"---DEFAULT---": "exit 0",
+		"build": "nuxt build",
+		"dev": "nuxt dev",
+		"generate": "nuxt generate",
+		"preview": "nuxt preview",
+		"postinstall": "nuxt prepare",
+		"---PRETTIER---": "exit 0",
+		"prettier:check": "prettier --check .",
+		"prettier:write": "prettier --write .",
+		"---ESTLINT---": "exit 0",
+		"lint": "eslint .",
+		"lint:fix": "eslint . --fix"
+	},
+	"dependencies": {
+		"@nuxt/eslint": "1.9.0",
+		"eslint": "^9.0.0",
+		"nuxt": "^4.1.3",
+		"vue": "^3.5.22",
+		"vue-router": "^4.6.3"
+	},
+	"devDependencies": {
+		"prettier": "3.6.2",
+		"typescript": "^5.9.3",
+		"vue-tsc": "^3.1.1"
+	}
 }

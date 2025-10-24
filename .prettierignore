@@ -1,0 +1,8 @@
+# Ignore artifacts:
+.nuxt
+.husky
+.output
+.vscode
+build
+public
+node_modules
