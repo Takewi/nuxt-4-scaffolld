@@ -1,6 +1,6 @@
 <script setup lang="ts">
 	import type { NuxtError } from '#app'
-
+	console.log('Test')
 	const props = defineProps({
 		error: Object as () => NuxtError,
 	})
