@@ -23,6 +23,7 @@ export default withNuxt(
 			'prefer-const': 'error',
 			'vue/require-default-prop': 'off',
 			'vue/multi-word-component-names': 'off',
+			'vue/attributes-order': ['warn', { alphabetical: true }],
 			'no-undef': 'off',
 		},
 	},
