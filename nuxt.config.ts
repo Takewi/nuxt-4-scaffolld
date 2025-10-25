@@ -5,7 +5,7 @@ export default defineNuxtConfig({
 	typescript: {
 		typeCheck: true,
 	},
-	modules: ['@nuxt/eslint', 'nuxt-quasar-ui'],
+	modules: ['@nuxt/eslint', 'nuxt-quasar-ui', '@pinia/nuxt'],
 	quasar: {
 		config: {
 			brand: {
