@@ -5,5 +5,21 @@ export default defineNuxtConfig({
 	typescript: {
 		typeCheck: true,
 	},
-	modules: ['@nuxt/eslint'],
+	modules: ['@nuxt/eslint', 'nuxt-quasar-ui'],
+	quasar: {
+		config: {
+			brand: {
+				primary: '#1876D2',
+				secondary: '#64748B',
+				positive: '#22C55E',
+				negative: '#F43F5E',
+				info: '#38c0f5ff',
+				warning: '#F59E0B',
+				accent: '#8A38F5',
+			},
+		},
+		extras: {
+			font: 'roboto-font',
+		},
+	},
 })
